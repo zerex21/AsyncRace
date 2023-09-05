@@ -1,0 +1,348 @@
+.container-car_race {
+  margin-bottom: 45px;
+}
+
+.buttonsPages {
+  display: flex;
+  max-width: 220px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.buttonsPages button {
+  font-size: 14px;
+  font-weight: bold;
+  width: 100px;
+  padding: 5px 0px;
+  background-color: #00a7d1;
+  border: none;
+  color: white;
+}
+.buttonsPages button:hover {
+  cursor: pointer;
+  background-color: #02718d;
+}
+.buttonsPages button:disabled,
+.buttonsPages button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.createAndChangeCar {
+  margin-bottom: 100px;
+}
+.createAndChangeCar .createCar,
+.createAndChangeCar .updateCar {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+.createAndChangeCar .createCar input,
+.createAndChangeCar .updateCar input {
+  font-size: 13px;
+  font-weight: bold;
+  padding: 5px 0;
+  margin-right: 5px;
+  border: solid 1px white;
+}
+.createAndChangeCar .btnCreateCar,
+.createAndChangeCar .btnUpdateCar {
+  width: 100px;
+}
+.createAndChangeCar .btnCreateCar button,
+.createAndChangeCar .btnUpdateCar button {
+  padding: 5px 5px;
+  border: none;
+  background-color: rgb(0, 167, 209);
+  border: none;
+  margin-left: 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+}
+.createAndChangeCar .btnCreateCar button:hover,
+.createAndChangeCar .btnUpdateCar button:hover {
+  cursor: pointer;
+  background-color: #02718d;
+}
+.createAndChangeCar .btnCreateCar button:disabled,
+.createAndChangeCar .btnCreateCar button[disabled],
+.createAndChangeCar .btnUpdateCar button:disabled,
+.createAndChangeCar .btnUpdateCar button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.createAndChangeCar .buttonsChangeParameters {
+  margin-top: 10px;
+  display: flex;
+  max-width: 353px;
+  justify-content: space-between;
+}
+.createAndChangeCar .buttonsChangeParameters .btnReset :disabled,
+.createAndChangeCar .buttonsChangeParameters .btnRace :disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.createAndChangeCar .buttonsChangeParameters button {
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  color: white;
+  background-color: #00a7d1;
+}
+.createAndChangeCar .buttonsChangeParameters button:hover {
+  cursor: pointer;
+  background-color: #02718d;
+}
+
+/* .page-garage:nth-last-child(3){
+    display: none;
+} */
+.page-garage {
+  color: white;
+  position: relative;
+}
+.page-garage .container-all-items {
+  display: none;
+}
+.page-garage .pageShow {
+  display: block;
+}
+.page-garage .alert-winner {
+  display: none;
+  position: absolute;
+  z-index: 8;
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  background: #000;
+  opacity: 0.7;
+  height: 200%;
+}
+.page-garage h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.page-garage .pageNum {
+  margin-top: 15px;
+}
+.page-garage .container-garage {
+  margin-top: 30px;
+}
+.page-garage .container-garage .container-garage_car-buttons {
+  display: flex;
+  /* width: 243px; */
+  padding-bottom: 10px;
+  justify-content: start;
+}
+.page-garage .container-garage .container-garage_car-buttons .btn-container {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  padding-right: 20px;
+}
+.page-garage .container-garage .container-garage_car-buttons button {
+  width: 80px;
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #00a7d1;
+  border: none;
+  color: white;
+}
+.page-garage .container-garage .container-garage_car-buttons button:hover {
+  cursor: pointer;
+  background-color: #02718d;
+}
+.page-garage .container-garage .car-name {
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  margin-bottom: 10px;
+  /* color: white; */
+}
+.page-garage .container-garage .container-buttons_use {
+  /*  display: flex; */
+  width: 180px;
+  /* justify-content: space-between; */
+  padding-bottom: 10px;
+}
+.page-garage .container-garage .container-buttons_use .btn-container {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  /* padding-right: 20px; */
+}
+.page-garage .container-garage .container-buttons_use .btn-resetOne:disabled,
+.page-garage .container-garage .container-buttons_use .btn-startOne:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+.page-garage .container-garage .container-buttons_use button {
+  width: 80px;
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #00a7d1;
+  border: none;
+  color: white;
+}
+.page-garage .container-garage .container-buttons_use button:hover {
+  cursor: pointer;
+  background-color: #02718d;
+}
+.page-garage .container-garage .container-game {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  border-bottom: solid 3px white;
+}
+.page-garage .container-garage .container-game .container-img {
+  position: absolute;
+  left: 1px;
+}
+.page-garage .container-garage .container-game .container-img .car-icon {
+  height: 80px;
+  width: 80px;
+  margin-bottom: -25px;
+  display: flex;
+  align-items: end;
+}
+.page-garage .container-garage .container-game .game-finish {
+  /*  display: flex;
+   justify-content: end; */
+  padding-right: 100px;
+}
+.page-garage .container-garage .container-game .game-finish img {
+  width: 40px;
+  height: 40px;
+}
+
+.buttonsPaginate {
+  display: flex;
+  width: 220px;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 20px;
+}
+.buttonsPaginate button {
+  width: 100px;
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #00a7d1;
+  border: none;
+  color: white;
+}
+.buttonsPaginate button:hover {
+  cursor: pointer;
+  background-color: #02718d;
+}
+.buttonsPaginate button:disabled,
+.buttonsPaginate button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.disabledBtn {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.wrapper-pageTwo {
+  color: white;
+}
+.wrapper-pageTwo h2 {
+  padding-bottom: 20px;
+}
+.wrapper-pageTwo h3 {
+  padding-bottom: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.wrapper-pageTwo table {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border: solid 2px white;
+  margin-bottom: 40px;
+}
+.wrapper-pageTwo table thead th {
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
+  padding: 5px 20px;
+}
+.wrapper-pageTwo table tbody th {
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
+  padding: 0 20px;
+}
+.wrapper-pageTwo table tbody th svg {
+  height: 50px;
+  width: 50px;
+  margin-bottom: -10px;
+  display: flex;
+  align-items: end;
+}
+
+.container-winners_btn {
+  display: flex;
+  width: 220px;
+  justify-content: space-between;
+}
+.container-winners_btn button {
+  width: 100px;
+  padding: 5px 0;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #00a7d1;
+  border: none;
+  color: white;
+}
+.container-winners_btn button:hover {
+  cursor: pointer;
+  background-color: #02718d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.wrapper-page,
+.wrapper-pageOne,
+.wrapper-pageTwo {
+  padding: 10px 10px 0px 10px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.wrapper-pageOne {
+  display: block;
+}
+
+.wrapper-pageTwo {
+  display: none;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */

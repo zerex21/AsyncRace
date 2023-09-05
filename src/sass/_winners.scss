@@ -1,0 +1,62 @@
+.wrapper-pageTwo{
+  color: white;
+    h2{
+        padding-bottom: 20px;
+    }
+
+    h3{
+        padding-bottom: 40px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    table{
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border: solid 2px white;
+        margin-bottom: 40px;
+
+        thead{
+            th{
+                border-right: solid 2px white;
+                border-bottom: solid 2px white;
+                padding:5px 20px;
+            }
+        }
+
+        tbody{
+            th{
+                border-right: solid 2px white;
+                border-bottom: solid 2px white;
+                padding:0 20px;
+                svg{
+                    height: 50px;
+                    width: 50px;
+                   margin-bottom: -10px;
+                   display: flex;
+                   align-items:end;
+                }
+            }
+        }
+    }
+}
+
+.container-winners_btn{
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+
+    button{
+        width: 100px;
+        padding: 5px 0;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: #00a7d1;
+        border: none;
+        color: white;
+        &:hover{
+            cursor: pointer;
+            background-color: #02718d;
+        }
+      }
+}
